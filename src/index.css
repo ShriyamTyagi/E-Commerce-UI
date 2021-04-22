@@ -1,0 +1,29 @@
+img {
+  width: 100%;
+  height: 35vh;
+  object-fit: cover;
+  object-position: top;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.featured {
+  background-color: grey;
+}
+
+.single-product {
+  max-width: 300px;
+}
+
+.card-image {
+  height: 450px;
+  object-fit: cover;
+}
+
+@media (max-width: 1230px) {
+  .product-list {
+    justify-content: center;
+  }
+}
